@@ -67,7 +67,6 @@
 		<script type="text/javascript" src="/assets/datavalue_theme_14/js/datavalue_theme.js?ver={{ build_version }}"></script>
 
 		{% include "templates/includes/app_analytics/google_analytics.html" %}
-		{% include "templates/includes/app_analytics/mixpanel_analytics.html" %}
 
 		{% for sound in (sounds or []) %}
 		<audio preload="auto" id="sound-{{ sound.name }}" volume={{ sound.volume or 1 }}>
